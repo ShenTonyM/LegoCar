@@ -15,9 +15,9 @@ ts = ev3.TouchSensor()
 #avoid collision, when ultrasonic senor detects
 #there is an obstical in collision distance car
 #will turn around
-COLLISION_DISTANCE = 1.0
+COLLISION_DISTANCE = 10.0
 
-RSPEED = 400
+RSPEED = 100
 #Control robot move as given command:
 #1. Go straight
 #2. Turn clock wise
